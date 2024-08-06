@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+header ul li{
+    margin-left: 1.3rem;
+}
+
+header ul img{
+    height:2.1rem;
+}
+
+#app_icon{
+    height:1.6rem;
+    border-radius: 2rem;
+    
+}
+
+#app_icon:hover{
+    cursor: pointer;
+    background-color: #d0c8c8;
+}
+#user{
+    height: 2rem;
+}
+
+#user:hover{
+    cursor: pointer;
+}
+
+
+header{
+    /* margin: 10px; */
+    padding: 0.9rem;
+}
+
+
+
+.underline:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+/* header ends*/
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.google img{
+    height: 9rem;
+    /* padding: 1px; */
+}
+
+
+.search{
+    display: flex;
+    width: 42%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgray;
+    padding: 0.4rem;
+    border-radius: 25px;
+}
+
+.search:hover{
+    box-shadow: 1px 2px 2px 2px lightgray;
+}
+
+#micro{
+    height: 1.8rem; 
+}
+
+#lens{
+    height: 1.8rem;
+    margin-left: 0.7rem;
+}
+
+#search_img{
+    height:1.1rem;
+    padding-right: 0.5rem;
+}
+
+#micro:hover{
+    cursor: pointer;
+}
+
+#lens:hover{
+    cursor: pointer;
+}
+
+.search input{
+    width: 85%;
+    border: none;
+    outline: none;
+    /* margin-left:px; */
+    font-size: medium;
+    /* padding: 2px 0p; */
+}
+
+
+/* buttons*/
+.buttons button{
+    padding: 0.8rem;
+    margin-top:1.5rem;
+    border: none;
+    border-radius:5px;
+    margin-left: 1rem;
+    background-color: #f8f9f9;
+}
+
+.buttons button:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px lightgray;
+}
+
+
+/*languages*/
+.last p{
+    margin-top: 1.5rem;
+    font-size: small;
+}
+
+.last span{
+    color: rgb(39, 39, 153);
+}
+
+
+
+/*Footer section*/
+footer{
+    margin-top: 10%;
+    background-color: #f2f2f2;
+    padding:0.8rem;
+}
+
+.upper{
+    padding: 0.5rem 0rem;
+    margin-bottom: 2px;
+}
+
+.lower ul{
+    list-style: none;
+}
+
+.lower{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0rem;
+    margin-top: 3px;
+}
+
+.lower ul{
+    display: flex;
+}
+
+.lower ul li{
+    padding: 0 0.6rem;
+}
